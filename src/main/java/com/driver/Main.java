@@ -11,9 +11,9 @@ public class Main {
 
             return (x+y+z);
         }
-        public double product(double x,double y){
+        public double product(double x,double y,double z){
 
-            return (x+y);
+            return (x+y+z);
         }
 
     }
@@ -21,6 +21,6 @@ public class Main {
         Product p=new Product();
         System.out.println(p.product(5,23));
         System.out.println(p.product(5,23,5));
-        System.out.println(p.product(5,23));
+        System.out.println(p.product(5,23,3));
     }
 }
