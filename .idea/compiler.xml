@@ -9,5 +9,8 @@
         <module name="java-assignment-testing-solution" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="polymorphism-bhushan868" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
